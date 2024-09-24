@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cusser"
-version = "0.2.1"
+version = "0.2.2"
 description = "A curses wrapper that understands ANSI escape code sequences"
 authors = ["Felipe S. S. Schneider <schneider.felipe@posgrad.ufsc.br>"]
 license = "MIT"
@@ -32,7 +32,7 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 stransi = "^0.3.0"
 
 [tool.poetry.dev-dependencies]
